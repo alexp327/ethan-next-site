@@ -16,8 +16,8 @@ const TextButton = ({
   href,
 }: TextButtonProps) => {
   const colorClasses = secondaryColor
-    ? "bg-tan/10 hover:bg-tan/25 text-tan"
-    : "bg-indigo-950/10 hover:bg-indigo-950/25 text-indigo-950";
+    ? "bg-primary-accent/10 hover:bg-primary-accent/25 text-primary-accent"
+    : "bg-primary-bg/10 hover:bg-primary-bg/25 text-primary-bg";
 
   return href ? (
     <Link

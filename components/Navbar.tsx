@@ -1,12 +1,13 @@
 import React from "react";
+import GhostButton from "./GhostButton";
 
 const Navbar = () => {
   return (
     <>
-      <header className='fixed w-full py-4 px-8 bg-tan shadow-2xl shadow-gray-700'>
-        <div className='flex'>
+      <header className='fixed w-full py-4 px-8 bg-primary-bg/90 shadow-md shadow-black/30 backdrop-blur-md text-primary-text'>
+        <div className='flex items-center'>
           <svg
-            className='material-icons'
+            className='material-icons fill-primary-accent'
             xmlns='http://www.w3.org/2000/svg'
             width='40'
             height='40'
@@ -16,23 +17,45 @@ const Navbar = () => {
           </svg>
           <h1 className='px-4 min-w-fit my-auto'>Ethan's Personal Website</h1>
           <nav className='w-full my-auto'>
-            <ul className='flex gap-4 justify-end'>
+            <ul className='flex justify-end'>
               <li>
-                <a href='/about'>About</a>
-              </li>
-              <li>
-                <a href='/about'>Experience</a>
-              </li>
-              <li>
-                <a href='/about'>Contact</a>
-              </li>
-              <li>
-                <a href='/about'>Resume</a>
-              </li>
-              <li>
-                <a className='mt-4 w-fit cursor-pointer bg-transparent hover:bg-indigo-950/25 transition-all duration-150 px-6 py-3 text-indigo-950 font-semibold rounded-md border-indigo-950 border'>
-                  Contact Me
+                <a
+                  href='/about'
+                  className='flex items-center hover:text-primary-accent px-3 py-4'
+                >
+                  About
                 </a>
+              </li>
+              <li>
+                <a
+                  href='/about'
+                  className='flex items-center hover:text-primary-accent px-3 py-4'
+                >
+                  Experience
+                </a>
+              </li>
+              <li>
+                <a
+                  href='/about'
+                  className='flex items-center hover:text-primary-accent px-3 py-4'
+                >
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a
+                  href='/about'
+                  className='flex items-center hover:text-primary-accent px-3 py-4'
+                >
+                  Resume
+                </a>
+              </li>
+              <li>
+                <GhostButton
+                  text='Contact'
+                  secondaryColor={true}
+                  className='ml-3'
+                />
               </li>
             </ul>
           </nav>

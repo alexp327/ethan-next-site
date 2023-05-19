@@ -16,8 +16,8 @@ const GhostButton = ({
   href,
 }: GhostButtonProps) => {
   const colorClasses = secondaryColor
-    ? "hover:bg-tan/25 text-tan border-tan"
-    : "hover:bg-indigo-950/25 text-indigo-950 border-indigo-950";
+    ? "hover:bg-primary-accent/25 text-primary-accent border-primary-accent"
+    : "hover:bg-primary-bg/25 text-primary-bg border-primary-bg";
 
   return href ? (
     <Link

@@ -3,14 +3,16 @@ import CTAButton from "@/components/CTAButton";
 import GhostButton from "@/components/GhostButton";
 import Skills from "@/components/Skills";
 import TextButton from "@/components/TextButton";
+import WhatIDo from "@/components/WhatIDo";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className='px-12 bg-indigo-950 text-slate-200 font-semibold'>
+    <main className='bg-primary-bg text-slate-200 font-semibold'>
       <AboutMe />
+      <WhatIDo />
       <Skills />
-      <div className='px-4 min-h-screen flex flex-col bg-white'>
+      <div className='px-4 min-h-screen flex flex-col bg-primary-text'>
         <CTAButton
           className='mt-4'
           text={"Primary CTA"}
@@ -51,4 +53,3 @@ export default function Home() {
     </main>
   );
 }
-

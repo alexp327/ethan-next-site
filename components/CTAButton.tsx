@@ -16,8 +16,8 @@ const CTAButton = ({
   href,
 }: CTAButtonProps) => {
   const colorClasses = secondaryColor
-    ? "bg-tan hover:bg-tan/80 text-indigo-950"
-    : "bg-indigo-950 hover:bg-indigo-950/80 text-white";
+    ? "bg-primary-accent hover:bg-primary-accent/80 text-primary-bg"
+    : "bg-primary-bg hover:bg-primary-bg/80 text-primary-text";
 
   return href ? (
     <Link
