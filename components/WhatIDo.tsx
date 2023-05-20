@@ -14,7 +14,7 @@ function WhatIDo() {
               <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6'>
                 Total Nelk Chad
               </h3>
-              <p className='text-secondary-bg w-fit mx-auto mt-6'>
+              <p className='text-secondary-bg w-fit mx-auto mt-6 text-center'>
                 I enjoy drinking beer, full sending things, and being an all
                 around Chad.
               </p>
@@ -25,7 +25,7 @@ function WhatIDo() {
                 <li className='mt-2'>Miller Lite</li>
                 <li className='mt-2'>Coors</li>
                 <li className='mt-2'>Bud Light</li>
-                <li className='mt-2'>Michalob Ultra</li>
+                <li className='mt-2'>Michelob Ultra</li>
                 <li className='mt-2'>King of Troy</li>
               </ul>
             </div>
@@ -36,7 +36,7 @@ function WhatIDo() {
               <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6'>
                 Total Nelk Chad
               </h3>
-              <p className='text-secondary-bg w-fit mx-auto mt-6'>
+              <p className='text-secondary-bg w-fit mx-auto mt-6 text-center'>
                 I enjoy drinking beer, full sending things, and being an all
                 around Chad.
               </p>
@@ -47,7 +47,7 @@ function WhatIDo() {
                 <li className='mt-2'>Miller Lite</li>
                 <li className='mt-2'>Coors</li>
                 <li className='mt-2'>Bud Light</li>
-                <li className='mt-2'>Michalob Ultra</li>
+                <li className='mt-2'>Michelob Ultra</li>
                 <li className='mt-2'>King of Troy</li>
               </ul>
             </div>
@@ -58,7 +58,7 @@ function WhatIDo() {
               <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6'>
                 Total Nelk Chad
               </h3>
-              <p className='text-secondary-bg w-fit mx-auto mt-6'>
+              <p className='text-secondary-bg w-fit mx-auto mt-6 text-center'>
                 I enjoy drinking beer, full sending things, and being an all
                 around Chad.
               </p>
@@ -69,7 +69,7 @@ function WhatIDo() {
                 <li className='mt-2'>Miller Lite</li>
                 <li className='mt-2'>Coors</li>
                 <li className='mt-2'>Bud Light</li>
-                <li className='mt-2'>Michalob Ultra</li>
+                <li className='mt-2'>Michelob Ultra</li>
                 <li className='mt-2'>King of Troy</li>
               </ul>
             </div>
