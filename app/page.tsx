@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className='bg-primary-bg text-slate-200 font-semibold'>
+    <main className='bg-secondary-bg text-slate-200 font-semibold'>
       <AboutMe />
       <WhatIDo />
       <Skills />
