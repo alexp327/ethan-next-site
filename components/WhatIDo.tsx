@@ -4,9 +4,9 @@ import { IoBeer, IoBeerOutline } from "react-icons/io5";
 function WhatIDo() {
   return (
     <section className='-mt-40 pb-16'>
-      <div className='relative lg:mx-auto max-w-screen-lg'>
+      <div className='lg:mx-auto max-w-screen-lg'>
         <div className='rounded-xl mx-8 bg-slate-100 shadow-md shadow-white/50'>
-          <div className='grid grid-cols-1 lg:grid-cols-3 text-secondary-bg'>
+          <div className='grid grid-cols-1 md:grid-cols-3 text-secondary-bg'>
             <div className='px-8 py-12'>
               <div className='bg-primary-accent text-4xl w-fit mx-auto p-3 rounded-full'>
                 <IoBeerOutline />
@@ -29,7 +29,7 @@ function WhatIDo() {
                 <li className='mt-2'>King of Troy</li>
               </ul>
             </div>
-            <div className='px-8 py-12 border-t lg:border-l'>
+            <div className='px-8 py-12 border-t md:border-l'>
               <div className='bg-primary-accent text-4xl w-fit mx-auto p-3 rounded-full'>
                 <IoBeerOutline />
               </div>
@@ -51,7 +51,7 @@ function WhatIDo() {
                 <li className='mt-2'>King of Troy</li>
               </ul>
             </div>
-            <div className='px-8 py-12 border-t lg:border-t-0 lg:border-l'>
+            <div className='px-8 py-12 border-t md:border-t-0 md:border-l'>
               <div className='bg-primary-accent text-4xl w-fit mx-auto p-3 rounded-full'>
                 <IoBeerOutline />
               </div>
