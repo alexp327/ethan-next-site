@@ -1,6 +1,7 @@
 import AboutMe from "@/components/AboutMe";
 import CTAButton from "@/components/CTAButton";
 import GhostButton from "@/components/GhostButton";
+import Project from "@/components/Project";
 import Skills from "@/components/Skills";
 import TextButton from "@/components/TextButton";
 import WhatIDo from "@/components/WhatIDo";
@@ -11,6 +12,32 @@ export default function Home() {
     <main className='bg-secondary-bg text-slate-200 font-semibold'>
       <AboutMe />
       <WhatIDo />
+      <section className='bg-primary-bg'>
+        <Project
+          title={"Animatronic Name"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?"
+          }
+          tools={["AutoCAD", "Tool #2", "Tool #3"]}
+          CTAtext={"Check it out"}
+        />
+        <Project
+          title={"Animatronic Name"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?"
+          }
+          tools={["AutoCAD", "Tool #2", "Tool #3"]}
+          CTAtext={"Check it out"}
+        />
+        <Project
+          title={"Animatronic Name"}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?"
+          }
+          tools={["AutoCAD", "Tool #2", "Tool #3"]}
+          CTAtext={"Check it out"}
+        />
+      </section>
       <Skills />
       <div className='px-4 min-h-screen flex flex-col bg-primary-text'>
         <CTAButton
