@@ -1,4 +1,4 @@
-import { Url } from "next/dist/shared/lib/router/router";
+import { Url } from "url";
 import Link from "next/link";
 import React from "react";
 

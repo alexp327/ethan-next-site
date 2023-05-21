@@ -11,7 +11,7 @@ function WhatIDo() {
               <div className='bg-primary-accent text-4xl w-fit mx-auto p-3 rounded-full'>
                 <IoBeerOutline />
               </div>
-              <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6'>
+              <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6 text-center'>
                 Total Nelk Chad
               </h3>
               <p className='text-secondary-bg w-fit mx-auto mt-6 text-center'>
@@ -33,7 +33,7 @@ function WhatIDo() {
               <div className='bg-primary-accent text-4xl w-fit mx-auto p-3 rounded-full'>
                 <IoBeerOutline />
               </div>
-              <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6'>
+              <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6 text-center'>
                 Total Nelk Chad
               </h3>
               <p className='text-secondary-bg w-fit mx-auto mt-6 text-center'>
@@ -55,7 +55,7 @@ function WhatIDo() {
               <div className='bg-primary-accent text-4xl w-fit mx-auto p-3 rounded-full'>
                 <IoBeerOutline />
               </div>
-              <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6'>
+              <h3 className='text-secondary-bg text-2xl w-fit mx-auto mt-6 text-center'>
                 Total Nelk Chad
               </h3>
               <p className='text-secondary-bg w-fit mx-auto mt-6 text-center'>

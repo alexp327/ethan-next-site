@@ -20,6 +20,8 @@ export default function Home() {
           }
           tools={["AutoCAD", "Tool #2", "Tool #3"]}
           CTAtext={"Check it out"}
+          rightAligned={true}
+          className='py-12'
         />
         <Project
           title={"Animatronic Name"}
@@ -28,6 +30,7 @@ export default function Home() {
           }
           tools={["AutoCAD", "Tool #2", "Tool #3"]}
           CTAtext={"Check it out"}
+          className='py-12'
         />
         <Project
           title={"Animatronic Name"}
@@ -36,6 +39,8 @@ export default function Home() {
           }
           tools={["AutoCAD", "Tool #2", "Tool #3"]}
           CTAtext={"Check it out"}
+          rightAligned={true}
+          className='py-12'
         />
       </section>
       <Skills />
