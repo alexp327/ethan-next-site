@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  html:focus-within {
+    @apply scroll-smooth;
+  }
+
+  @media (prefers-reduced-motion) {
+    html:focus-within {
+      @apply scroll-auto;
+    }
+  }
+
   h1,
   h2,
   h3,

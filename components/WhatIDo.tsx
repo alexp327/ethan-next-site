@@ -3,8 +3,8 @@ import { IoBeer, IoBeerOutline } from "react-icons/io5";
 
 function WhatIDo() {
   return (
-    <section className='-mt-40 pb-32'>
-      <div className='lg:mx-auto max-w-screen-lg'>
+    <section id='what-i-do' tabIndex={-1} className='-mt-40 pb-32'>
+      <div className='relative z-20 lg:mx-auto max-w-screen-lg'>
         <div className='rounded-xl mx-8 bg-slate-100 shadow-md shadow-white/50'>
           <div className='grid grid-cols-1 md:grid-cols-3 text-secondary-bg'>
             <div className='px-8 py-12'>

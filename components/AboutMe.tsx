@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className='pb-40 bg-primary-bg min-h-screen flex justify-center items-start'>
+    <section className='pb-40 min-h-screen bg-primary-bg flex justify-center items-start'>
       <div className='px-12 flex flex-col my-28 md:my-auto'>
         <h1 className='text-7xl'>Ethan Perry</h1>
         <h1 className='text-5xl mt-4'>
