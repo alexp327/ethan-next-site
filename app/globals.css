@@ -27,3 +27,38 @@
     @apply flex items-center;
   }
 }
+
+@layer components {
+  .custom-gradient-glow::before {
+    background: radial-gradient(#c24f11d0, rgba(255, 255, 255, 0));
+    border-radius: 50%;
+    width: 480px;
+    height: 360px;
+    margin-top: -50px;
+    margin-left: -200px;
+  }
+
+  .custom-gradient-glow::after {
+    background: conic-gradient(
+      from 180deg at 50% 50%,
+      #ff871677 0deg,
+      #ff9d1c3e 55deg,
+      #bb880860 120deg,
+      #c24f11d0 160deg,
+      transparent 360deg
+    );
+    width: 240px;
+    height: 180px;
+    margin-left: -350px;
+    margin-top: 150px;
+  }
+
+  .custom-gradient-glow::before,
+  .custom-gradient-glow::after {
+    content: "";
+    left: 55%;
+    position: absolute;
+    filter: blur(45px);
+    background-size: cover;
+  }
+}

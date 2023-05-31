@@ -31,7 +31,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href='mailto:eperry2658@gmail.com'>
+            <Link href='mailto:perryem@purdue.edu'>
               <Image
                 src='../../assets/socials/email.svg'
                 alt=''
