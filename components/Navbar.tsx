@@ -1,5 +1,5 @@
-import React from "react";
-import GhostButton from "./GhostButton";
+import React from 'react';
+import GhostButton from './GhostButton';
 
 const Navbar = () => {
   return (
@@ -64,3 +64,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
