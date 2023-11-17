@@ -1,11 +1,11 @@
-import AboutMe from "@/components/AboutMe";
-import CTAButton from "@/components/CTAButton";
-import GhostButton from "@/components/GhostButton";
-import Project from "@/components/Project";
-import Skills from "@/components/Skills";
-import TextButton from "@/components/TextButton";
-import WhatIDo from "@/components/WhatIDo";
-import Image from "next/image";
+import AboutMe from '@/components/AboutMe';
+import CTAButton from '@/components/CTAButton';
+import GhostButton from '@/components/GhostButton';
+import Project from '@/components/Project';
+import Skills from '@/components/Skills';
+import TextButton from '@/components/TextButton';
+import WhatIDo from '@/components/WhatIDo';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -22,31 +22,31 @@ export default function Home() {
           <a href=''>Check out the full list &rarr;</a>
         </p> */}
         <Project
-          title={"Animatronic Name"}
+          title={'Animatronic Name'}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?"
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?'
           }
-          tools={["AutoCAD", "Tool #2", "Tool #3"]}
-          CTAtext={"Check it out"}
+          tools={['AutoCAD', 'Tool #2', 'Tool #3']}
+          CTAtext={'Check it out'}
           rightAligned={true}
           className='py-12 lg:py-24'
         />
         <Project
-          title={"Animatronic Name"}
+          title={'Animatronic Name'}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?"
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?'
           }
-          tools={["AutoCAD", "Tool #2", "Tool #3"]}
-          CTAtext={"Check it out"}
+          tools={['AutoCAD', 'Tool #2', 'Tool #3']}
+          CTAtext={'Check it out'}
           className='py-12 lg:py-24'
         />
         <Project
-          title={"Animatronic Name"}
+          title={'Animatronic Name'}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?"
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, corporis! Sint quo dolore, nam libero accusantium unde possimus velit natus asperiores, totam expedita nostrum, officia dolores hic molestiae perferendis cumque?'
           }
-          tools={["AutoCAD", "Tool #2", "Tool #3"]}
-          CTAtext={"Check it out"}
+          tools={['AutoCAD', 'Tool #2', 'Tool #3']}
+          CTAtext={'Check it out'}
           rightAligned={true}
           className='py-12 lg:py-24'
         />
@@ -55,3 +55,4 @@ export default function Home() {
     </main>
   );
 }
+
